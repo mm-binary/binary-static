@@ -77472,7 +77472,7 @@ BetForm.Time.EndTime.prototype = {
                 var barrier_tick = $self.applicable_ticks[0];
 
                 if ( $self.barrier ) {
-                  barrier_tick.quote += $self.barrier;
+                  barrier_tick.quote += parseInt($self.barrier);
                 }
 
                 $self.chart.yAxis[0].addPlotLine({
