@@ -7,5 +7,5 @@
  *
  */
 
-var app_id = /staging\.binary\.com/i.test(window.location.hostname) ? '1098' : '1';
-var socket_url = 'wss://ws.binaryws.com/websockets/v3';
+var app_id = /staging\.binary\.com/i.test(window.location.hostname) ? '1098' : '1001';
+var socket_url = 'wss://www.binaryqa20.com/websockets/v3';
