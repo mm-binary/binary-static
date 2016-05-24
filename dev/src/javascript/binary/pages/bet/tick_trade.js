@@ -213,7 +213,7 @@ var TickDisplay = function() {
                 var barrier_tick = $self.applicable_ticks[0];
 
                 if ( $self.barrier ) {
-                  barrier_tick.quote += parseInt($self.barrier);
+                  barrier_tick.quote += parseFloat($self.barrier);
                 }
 
                 $self.chart.yAxis[0].addPlotLine({
