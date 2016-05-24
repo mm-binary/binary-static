@@ -20,7 +20,6 @@ var TickDisplay = function() {
             $self.set_barrier = ($self.contract_category.match('digits')) ? false : true;
             $self.shortcode = data.shortcode;
             $self.barrier = data.barrier;
-            alert($self.barrier);
             $self.display_decimals = data.display_decimals || 2;
             $self.show_contract_result = data.show_contract_result;
             var tick_frequency = 5;
@@ -212,6 +211,10 @@ var TickDisplay = function() {
 
             if (barrier_type === 'static') {
                 var barrier_tick = $self.applicable_ticks[0];
+
+                if ( $self.barrier ) {
+                  barrier_tick.quote += $self.barrier;
+                }
 
                 $self.chart.yAxis[0].addPlotLine({
                     id: 'tick-barrier',
