@@ -47,6 +47,7 @@ WSTickDisplay.dispatch = function(data) {
           "symbol"              : window.tick_underlying,
           "number_of_ticks"     : window.tick_count,
           "contract_category"   : ((/asian/i).test(window.tick_shortcode) ? 'asian' : (/digit/i).test(window.tick_shortcode) ? 'digits' : 'callput'),
+          "barrier"             : contract.barrier,
           "longcode"            : window.tick_longcode,
           "display_symbol"      : window.tick_display_name,
           "contract_start"      : window.tick_date_start,
@@ -115,6 +116,7 @@ WSTickDisplay.updateChart = function(data, contract) {
       window.tick_display_name = contract.display_name;
       window.tick_date_start = contract.date_start;
       window.tick_shortcode = contract.shortcode;
+      window.barrier = contract.barrier;
       window.tick_init = '';
       var request = {
         ticks_history: contract.underlying,
