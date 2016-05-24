@@ -47,7 +47,7 @@ WSTickDisplay.dispatch = function(data) {
           "symbol"              : window.tick_underlying,
           "number_of_ticks"     : window.tick_count,
           "contract_category"   : ((/asian/i).test(window.tick_shortcode) ? 'asian' : (/digit/i).test(window.tick_shortcode) ? 'digits' : 'callput'),
-          "barrier"             : contract.barrier,
+          "barrier"             : window.barrier,
           "longcode"            : window.tick_longcode,
           "display_symbol"      : window.tick_display_name,
           "contract_start"      : window.tick_date_start,
