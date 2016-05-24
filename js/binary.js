@@ -77472,7 +77472,12 @@ BetForm.Time.EndTime.prototype = {
                 var barrier_tick = $self.applicable_ticks[0];
 
                 if ( $self.barrier ) {
-                  barrier_tick.quote += parseFloat($self.barrier);
+                  var final_barrier = barrier_tick.quote + parseFloat($self.barrier);
+                  //sometimes due to rounding issues, result is 1.009999 while it should
+                  //be 1.01
+                  final_barrier = Number(Math.round(final_barrier+'e'+$self.display_decimals)+'e-'+$self.display_decimals);
+
+                  barrier_tick.quote = final_barrier;
                 }
 
                 $self.chart.yAxis[0].addPlotLine({
