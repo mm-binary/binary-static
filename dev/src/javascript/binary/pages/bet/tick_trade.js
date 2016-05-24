@@ -19,7 +19,6 @@ var TickDisplay = function() {
             $self.contract_category = data.contract_category;
             $self.set_barrier = ($self.contract_category.match('digits')) ? false : true;
             $self.barrier = data.barrier;
-            alert($self.barrier);
             $self.display_decimals = data.display_decimals || 2;
             $self.show_contract_result = data.show_contract_result;
             var tick_frequency = 5;

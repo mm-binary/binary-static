@@ -126,6 +126,7 @@ var Purchase = (function () {
                 }
             }
 
+            alert(passthrough.barrier);
             WSTickDisplay.initialize({
                 symbol:passthrough.symbol,
                 barrier: passthrough.barrier,
