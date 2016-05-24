@@ -85277,10 +85277,14 @@ var Purchase = (function () {
                 }
             }
 
-            alert(passthrough.barrier);
+            var barrier;
+            if ( sessionStorage.getItem('formname') === 'higherlower' ) {
+              barrier = passthrough.barrier;
+            }
+
             WSTickDisplay.initialize({
                 symbol:passthrough.symbol,
-                barrier: passthrough.barrier,
+                barrier: barrier,
                 number_of_ticks:passthrough.duration,
                 previous_tick_epoch:receipt['start_time'],
                 contract_category:sessionStorage.getItem('formname')==='asian' ? 'asian' : 'callput',
