@@ -77278,6 +77278,7 @@ BetForm.Time.EndTime.prototype = {
             $self.contract_category = data.contract_category;
             $self.set_barrier = ($self.contract_category.match('digits')) ? false : true;
             $self.barrier = data.barrier;
+            $self.abs_barrier = data.abs_barrier;
             $self.display_decimals = data.display_decimals || 2;
             $self.show_contract_result = data.show_contract_result;
             var tick_frequency = 5;
@@ -77477,6 +77478,9 @@ BetForm.Time.EndTime.prototype = {
                   final_barrier = Number(Math.round(final_barrier+'e'+$self.display_decimals)+'e-'+$self.display_decimals);
 
                   barrier_tick.quote = final_barrier;
+                }
+                else if ( $self.abs_barrier ) {
+                  barrier_tick.quote = parseFloat($self.abs_barrier);
                 }
 
                 $self.chart.yAxis[0].addPlotLine({
@@ -85784,7 +85788,7 @@ WSTickDisplay.dispatch = function(data) {
           "longcode"            : window.tick_longcode,
           "display_symbol"      : window.tick_display_name,
           "contract_start"      : window.tick_date_start,
-          "barrier"             : window.barrier,
+          "abs_barrier"         : window.abs_barrier,
           "display_decimals"    : display_decimals,
           "show_contract_result": 0
       });
@@ -85849,7 +85853,7 @@ WSTickDisplay.updateChart = function(data, contract) {
       window.tick_longcode = contract.longcode;
       window.tick_display_name = contract.display_name;
       window.tick_date_start = contract.date_start;
-      window.barrier = contract.barrier;
+      window.abs_barrier = contract.barrier;
       window.tick_shortcode = contract.shortcode;
       window.tick_init = '';
       var request = {
