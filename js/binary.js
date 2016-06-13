@@ -68437,7 +68437,7 @@ texts_json['ZH_TW'] = {"October":"十月","Contract_Expiry":"合約已到期","Y
 
 function getAppId() {
   return localStorage.getItem('config.app_id') ? localStorage.getItem('config.app_id') :
-               /staging\.binary\.com/i.test(window.location.hostname) ? '1098' : '1';
+               /staging\.binary\.com/i.test(window.location.hostname) ? '1098' : '1003';
 }
 
 function getSocketURL() {
@@ -68964,7 +68964,7 @@ var User = function() {
     this.email   =  $.cookie('email');
     var loginid_list = $.cookie('loginid_list');
 
-    if(!this.loginid || !loginid_list) {
+    if(!this.loginid || !loginid_list || !localStorage.getItem('client.tokens')) {
         this.is_logged_in = false;
     } else {
         this.is_logged_in = true;
@@ -69002,7 +69002,7 @@ var User = function() {
 var Client = function() {
     this.loginid      =  $.cookie('loginid');
     this.residence    =  $.cookie('residence');
-    this.is_logged_in = this.loginid && this.loginid.length > 0;
+    this.is_logged_in = this.loginid && this.loginid.length > 0 && localStorage.getItem('client.tokens');
 };
 
 Client.prototype = {
@@ -74672,7 +74672,7 @@ function BinarySocketClass() {
 
         binarySocket.onopen = function (){
             var loginToken = getCookieItem('login');
-            if(loginToken && !authorized) {
+            if(loginToken && !authorized && localStorage.getItem('client.tokens')) {
                 binarySocket.send(JSON.stringify({authorize: loginToken}));
             }
             else {
@@ -77212,7 +77212,6 @@ function isJapanTrading(){
             textSalePrice: text.localize('Sale Price'),
             textProfitLoss: text.localize('Profit/Loss'),
             textTotalProfitLoss: text.localize('Total Profit/Loss'),
-            textLimits: text.localize('Trading and Withdrawal Limits'),
             textItem: text.localize('Item'),
             textLimit: text.localize('Limit'),
             textMaxOpenPosition: text.localize('Maximum number of open positions'),
@@ -77223,8 +77222,6 @@ function isJapanTrading(){
             textMaxDailyTurnoverTooltip: text.localize('Represents the maximum volume of contracts that you may purchase in any given trading day.'),
             textMaxAggregate: text.localize('Maximum aggregate payouts on open positions'),
             textMaxAggregateTooltip: text.localize('Presents the maximum aggregate payouts on outstanding contracts in your portfolio. If the maximum is attained, you may not purchase additional contracts without first closing out existing positions.'),
-            textTradingLimits: text.localize('Trading Limits'),
-            textWithdrawalTitle: text.localize('Withdrawal Limits'),
             textAuthenticatedWithdrawal: text.localize('Your account is fully authenticated and your withdrawal limits have been lifted.'),
             textWithdrawalLimits: text.localize('Your withdrawal limit is [_1] [_2].'),
             textWithdrawalLimitsEquivalant: text.localize('Your withdrawal limit is [_1] [_2] (or equivalent in other currency).'),
@@ -77444,21 +77441,6 @@ function isJapanTrading(){
         titleElement.textContent = localize.textProfitTable;
     };
 
-    var limitsTranslation = function() {
-        var titleElement = document.getElementById("limits-ws-container").firstElementChild;
-        titleElement.textContent = localize.textLimits;
-
-        if (page.client.is_logged_in && !page.client.is_virtual()) {
-            var loginId = page.client.loginid;
-
-            var tradingLimits = document.getElementById("trading-limits");
-            tradingLimits.textContent = loginId + " - " + localize.textTradingLimits;
-
-            var withdrawalTitle = document.getElementById("withdrawal-title");
-            withdrawalTitle.textContent = loginId + " - " + localize.textWithdrawalTitle;
-        }
-    };
-
     var errorMessage = function(messageType, param) {
         var msg = "",
             separator = ', ';
@@ -77505,7 +77487,6 @@ function isJapanTrading(){
         populate: populate,
         statementTranslation: statementTranslation,
         profitTableTranslation: profitTableTranslation,
-        limitsTranslation: limitsTranslation,
         errorMessage: errorMessage
     };
 
@@ -78327,7 +78308,7 @@ var TradingEvents = (function () {
             formNavElement.addEventListener('click', function(e) {
                 if (e.target && e.target.getAttribute('menuitem')) {
                     var clickedForm = e.target;
-                    var isFormActive = clickedForm.classList.contains('active');
+                    var isFormActive = clickedForm.classList.contains('active') || clickedForm.parentElement.classList.contains('active');
                     Defaults.set('formname', clickedForm.getAttribute('menuitem'));
 
                     setFormPlaceholderContent();
@@ -82851,12 +82832,12 @@ pjax_config_page_require_auth("user/settings/assessmentws", function() {
     return {
         onLoad: function() {
             Content.populate();
-            Content.limitsTranslation();
+            var titleElement = document.getElementById("limits-ws-container").firstElementChild;
+            titleElement.textContent = text.localize('Trading and Withdrawal Limits');
             if (TUser.get().is_virtual) {
                 LimitsWS.limitsError();
                 return;
             }
-            document.getElementById('client_message').setAttribute('style', 'display:none');
 
             BinarySocket.init({
                 onmessage: function(msg){
@@ -82866,11 +82847,11 @@ pjax_config_page_require_auth("user/settings/assessmentws", function() {
                         var error = response.error;
 
                         if (type === 'authorize' && TUser.get().is_virtual){
-                            LimitsWS.limitsError();
+                            LimitsWS.limitsError(error);
                         } else if (type === 'get_limits' && !error){
                             LimitsWS.limitsHandler(response);
                         } else if (error) {
-                            LimitsWS.limitsError();
+                            LimitsWS.limitsError(error);
                         }
                     }
                 }
@@ -82925,10 +82906,17 @@ pjax_config_page_require_auth("user/settings/assessmentws", function() {
         }
     }
 
-    function limitsError(){
+    function limitsError(error){
         document.getElementById('withdrawal-title').setAttribute('style', 'display:none');
         document.getElementById('limits-title').setAttribute('style', 'display:none');
-        document.getElementsByClassName('notice-msg')[0].innerHTML = Content.localize().textFeatureUnavailable;
+        var errorElement = document.getElementsByClassName('notice-msg')[0];
+        if ((error && error.code === 'FeatureNotAvailable' && page.client.is_virtual()) || page.client.is_virtual()) {
+          errorElement.innerHTML = text.localize('This feature is not relevant to virtual-money accounts.');
+        } else if (error && error.message) {
+          errorElement.innerHTML = error.message;
+        } else {
+          errorElement.innerHTML = text.localize('An error occured') + '.';
+        }
         document.getElementById('client_message').setAttribute('style', 'display:block');
     }
 
@@ -82949,33 +82937,74 @@ pjax_config_page_require_auth("user/settings/assessmentws", function() {
     function fillLimitsTable(limits){
         var open_positions = addComma(limits['open_positions']);
         var account_balance = addComma(limits['account_balance']);
-        var daily_turnover = addComma(limits['daily_turnover']);
         var payout = addComma(limits['payout']);
+        var marketSpecific = limits.market_specific;
 
         document.getElementById('item').textContent = Content.localize().textItem;
-        
+
         var currency = TUser.get().currency;
-        var limit = document.getElementById('limit');
+        var limit = document.getElementsByClassName('limit');
         if (currency === "") {
-            limit.textContent = Content.localize().textLimit;
+            limit[0].textContent = Content.localize().textLimit;
+            limit[1].textContent = Content.localize().textLimit;
         } else {
-            limit.textContent = Content.localize().textLimit + " (" + currency + ")";
+            limit[0].textContent = Content.localize().textLimit + " (" + currency + ")";
+            limit[1].textContent = Content.localize().textLimit + " (" + currency + ")";
         }
         $('#max-open-position').prepend(Content.localize().textMaxOpenPosition);
         document.getElementById('max-open-position-tooltip').setAttribute('title', Content.localize().textMaxOpenPositionTooltip);
         document.getElementById('open-positions').textContent = open_positions;
-        
+
         $('#max-acc-balance').prepend(Content.localize().textMaxAccBalance);
         document.getElementById('max-acc-balance-tooltip').setAttribute('title', Content.localize().textMaxAccBalanceTooltip);
         document.getElementById('account-balance').textContent = account_balance;
-        
+
         $('#max-daily-turnover').prepend(Content.localize().textMaxDailyTurnover);
         document.getElementById('max-daily-turnover-tooltip').setAttribute('title', Content.localize().textMaxDailyTurnoverTooltip);
-        document.getElementById('daily-turnover').textContent = daily_turnover;
-        
+
         $('#max-aggregate').prepend(Content.localize().textMaxAggregate);
         document.getElementById('max-aggregate-tooltip').setAttribute('title', Content.localize().textMaxAggregateTooltip);
         document.getElementById('payout').textContent = payout;
+
+        if (marketSpecific && Object.keys(marketSpecific).length > 0) {
+          var key;
+          for (key in marketSpecific) {
+            if (marketSpecific.hasOwnProperty(key)) {
+              var object = marketSpecific[key];
+              if (object.length && object.length > 0) {
+                appendRowTable(key.charAt(0).toUpperCase() + key.slice(1), '', 'auto', 'bold');
+                for (key in object) {
+                  if (object.hasOwnProperty(key)) {
+                    appendRowTable(object[key].name, object[key].turnover_limit !== 'null' ? addComma(object[key].turnover_limit) : 0, '25px', 'normal');
+                  }
+                }
+              } else {
+                appendRowTable(object.name, object.turnover_limit !== 'null' ? addComma(object.turnover_limit) : 0, 'auto', 'bold');
+              }
+            }
+          }
+        }
+        if (page.client.is_logged_in && !page.client.is_virtual()) {
+            var loginId = page.client.loginid;
+
+            var tradingLimits = document.getElementById("trading-limits");
+            tradingLimits.textContent = loginId + " - " + text.localize('Trading Limits');
+
+            var withdrawalTitle = document.getElementById("withdrawal-title");
+            withdrawalTitle.textContent = loginId + " - " + text.localize('Withdrawal Limits');
+        }
+        document.getElementById('client-limits').setAttribute('style', 'display:table');
+    }
+
+    function appendRowTable(name, turnover_limit, padding, font_weight) {
+      $('#client-limits').append('<tr class="flex-tr">' +
+                            '<td class="flex-tr-child" style="padding-left: ' + padding + '; font-weight: ' + font_weight + ';">' +
+                              text.localize(name) +
+                            '</td>' +
+                            '<td>' +
+                              turnover_limit +
+                            '</td>' +
+                          '</tr>');
     }
 
     function clearTableContent(){
@@ -82983,8 +83012,8 @@ pjax_config_page_require_auth("user/settings/assessmentws", function() {
         $("#limits-title>tfoot").hide();
     }
 
-    
-    
+
+
     return {
         clearTableContent: clearTableContent,
         fillLimitsTable: fillLimitsTable

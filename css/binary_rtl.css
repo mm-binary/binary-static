@@ -1956,6 +1956,14 @@ a.close:hover {
   text-decoration: none;
 }
 
+.profit {
+  color: #2e8836;
+}
+
+.loss {
+  color: #cc0033;
+}
+
 .popup_bet_desc {
   padding: 5px 0;
   border: 1px solid #DEDEDE;
