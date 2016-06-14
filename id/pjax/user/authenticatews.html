@@ -1,4 +1,4 @@
-<div id="content">
+<div id="content" class="authenticatews-content">
           <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MZWFF7"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -16,7 +16,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           
 
           <div class="grd-grid-12">
-<h1>Pembuktian</h1>
-<div id="authentication-message"></div>
+  <h1>Pembuktian</h1>
+  <div id="authentication-message">
+
+      <p id="fully-authenticated" class="invisible">
+          Your account is fully authenticated. You can view your <a class="pjaxload" href="/binary-static/id/user/settings/limitsws.html">trading limits here</a>.
+      </p>
+
+      <div id="not-authenticated" class="invisible">
+          <p>To authenticate your account, kindly email the following to <a href="mailto:support@binary.com">support@binary.com</a></p>
+          <p>- Salinan scan dari paspor, SIM atau KTP, yang memperlihatkan nama dan tanggal lahir Anda.</p>
+          <p>dan</p>
+          <p>- Salinan scan dari tagihan utilitas atau rekening koran (tidak melebihi 3 bulan).</p>
+      </div>
+
+      <p class="center notice-msg invisible" id="error_message"></p>
+
+  </div>
+</div>
           </div>
       </div>

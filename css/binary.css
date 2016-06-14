@@ -589,6 +589,10 @@ _:-ms-fullscreen, :root #content-holder {
   height: 100%;
 }
 
+xmp {
+  font-family: inherit;
+}
+
 *,
 *:after,
 *:before {

@@ -68428,15 +68428,23 @@ texts_json['ZH_CN'] = {"Browser":"浏览器","Your_session_duration_limit_will_e
 texts_json['ZH_TW'] = {"October":"十月","Contract_Expiry":"合約已到期","You_have_sold_this_contract_at_[_1]_[_2]":"您已經以 [_1] [_2] 賣出此合約","-_A_scanned_copy_of_your_passport,_driving_licence_(provisional_or_full)_or_identity_card,_showing_your_name_and_date_of_birth_":"顯示您名字和出生日期的護照、駕照（臨時或永久）或身份證的掃描件。","An_additional_password_can_be_used_to_restrict_access_to_the_cashier_":"可使用額外密碼來限制對收銀台的存取。","1-2_years":"1-2 年","Purchase_Time":"買入時間","DevOps_Manager":"DevOps 經理","You_have_already_withdrawn_the_equivalent_of_[_1]_[_2]_in_aggregate_over_the_last_[_3]_days_":"過去 [_3] 天裡您已累計提取 [_1] [_2] 的等值。","Total_Cost":"成本總計","Ref_":"參考","Sale_Date":"賣出日期","IP_Address":"IP地址","Barrier_offset":"障礙位移","High_Barrier":"高障礙","space":"空間","Password_must_contains_at_least_1_digit,_1_uppercase_letter_and_1_lowercase_letter_":"密碼必須包含至少1數字、1大寫字母和1小寫字母。","Please_confirm_the_transaction_details_in_order_to_complete_the_transfer:":"請確認交易詳細資料以完成轉帳：","Questions":"問題","Senior_Perl_Developer":"高級 Perl 開發人員","Stocks_trading_experience":"股票交易經驗","Settles":"結算","The_maximum_number_of_tokens_([_1])_has_been_reached_":"已達權杖 ([_1]) 最大限數。","Health":"健康","Global_Customer_Service_Representatives":"全球客戶服務代表","Please_enter_a_date_that_is_at_least_6_months_from_now_":"請輸入至少6個月後的日期。","Marketing_Project_Manager":"市場行銷項目經理","Upcoming_Events":"未來事件","Total_Profit/Loss":"利潤/虧損合計","Exclude_time_cannot_be_less_than_6_months_":"禁止時間不能少於6個月。","Fr":"星期五","Asset":"資產","Contract":"合約","Matches/Differs":"相符/差異","Finish":"完成","login":"登入","6-10_transactions_in_the_past_12_months":"過去12個月內6-10次交易","Delete":"刪除","Your_[_1]_accounts_are_unavailable__For_any_questions_please_contact_[_2]_":"您的[_1]帳戶不可用。如有任何問題，請聯繫[_2]。","You_have_already_withdrawn_[_1]_[_2]_":"您已提取 [_1] [_2]。","Nov":"十一月","Action":"動作","verification_token":"驗證權杖","Sorry,_an_error_occurred_while_processing_your_account_":"對不起，在處理您的帳戶時出錯。","This_contract_lost":"此合約虧損","Su":"星期日","letters":"字母","Confirm":"確認","Contract_ID":"合約編號","Try_adding_more_letters_":"試新增更多字母。","Start_time":"開始時間","Password_is_weak":"密碼安全度低","Over_3_years":"3年以上","Investment_Account":"投資帳戶","Only_[_1]_are_allowed_":"只允許 [_1] 。","Contract_Sold":"售出合約","Last_Used":"最近一次使用","Statement":"帳單","Year":"年","Mr":"先生","Password_score_is:_[_1]__Passing_score_is:_20_":"密碼積分是: [_1]。通過積分是: 20。","Description":"描述","Stocks_trading_frequency":"股票交易頻率","Exercise_period":"練習期間","Credit/Debit":"借記/貸記","Password_is_not_strong_enough_":"密碼安全度不夠。","Select_market":"選擇市場","Login_ID":"登入 ID","January":"一月","Remaining_Time":"剩餘時間","From":"來自","Barrier":"障礙","Transfer_to_Login_ID":"轉給登入 ID","Indices_trading_frequency":"指數交易頻率","Profit_Table":"利潤表","Invalid_amount,_minimum_is":"無效金額，最小是","High_barrier_offset":"高障礙位移","Net_Annual_Income":"年淨收入","Accounting":"會計","period":"週期","Accounts_And_Payments_Executive":"帳戶和付款執行員","is_required__Current_spread":"為必要。目前價差","You_are_currently_logged_in_to_your_real_money_account_with_[_1]_([_2])_":"您現已登入您的 [_1]([_2])真實資金帳戶。","Your_request_to_withdraw_[_1]_[_2]_from_your_account_[_3]_to_Payment_Agent_[_4]_account_has_been_successfully_processed_":"您從 [_3] 帳戶提取[_1] [_2] 到付款代理 [_4] 帳戶的要求已成功處理。","Adjusted_Barrier":"經調整障礙","Failed_to_update_trade_description_":"無法更新交易描述。","Exclude_time_cannot_be_for_more_than_5_years_":"禁止時間不能超過5年。","You_need_to_finish_all_20_questions_":"必須答覆全部20個問題。","Exit_Level":"退出價位","Country_Manager":"區域經理","Your_details_have_been_updated_":"您的個人資訊已成功更新。","To":"到","Even/Odd":"偶/奇","Real_Account":"真實帳戶","Binary_options_or_other_financial_derivatives_trading_frequency":"二元期權或其它金融衍生品交易頻率","hour":"小時","Saturday":"星期六","Failed":"失敗","Are_you_sure_that_you_want_to_permanently_delete_token":"確定要永久刪除權杖嗎","Please_deposit_before_transfer_to_client_":"給客戶轉帳前請先存款。","Forex_trading_frequency":"外匯交易頻率","Adjusted_Low_Barrier":"經調整低障礙","Contract_will_be_sold_at_the_prevailing_market_price_when_the_request_is_received_by_our_servers__This_price_may_differ_from_the_indicated_price_":"合約將在我們伺服器收到要求時以當時的市場價格賣出。此價格可能會與報價有差異。","Pension":"退休金","Net_profit":"淨收益","Update":"更新","Sell_at_market":"按市價賣出","Sunday":"星期日","Please_follow_the_pattern_3_numbers,_a_dash,_followed_by_4_numbers_":"請依照此模式:3個數字，一破折號，接着是4個數字。","Exclude_time_must_be_after_today_":"禁止時間必須在今日之後。","Mrs":"夫人","Name":"姓名","Quantitative_Analyst":"量化分析員","Your_account_is_not_fully_authenticated__Please_visit_the_<a_href=\"[_1]\">authentication</a>_page_for_more_information_":"您的帳戶未完全驗證。欲知詳情請檢視<a href=\"[_1]\">驗證</a>頁面。","Represents_the_maximum_number_of_outstanding_contracts_in_your_portfolio__Each_line_in_your_portfolio_counts_for_one_open_position__Once_the_maximum_is_reached,_you_will_not_be_able_to_open_new_positions_without_closing_an_existing_position_first_":"表示您的投資組合中未平倉合約的最大數量。您投資組合中的每一行都算作是一個未平倉頭寸。一旦達到該最大值，在開設新頭寸之前您需要先了結一個現有頭寸。","Your_account_is_fully_authenticated__You_can_view_your_[_1]trading_limits_here":"您的帳戶已經通過驗證。您可在此檢視您的 [_1] 交易限額","Your_[_1]_account_is_unavailable__For_any_questions_please_contact_[_2]_":"您的[_1]帳戶不可用。如有任何問題，請聯繫[_2]。","We_are_not_able_to_stream_live_prices_at_the_moment__To_enjoy_live_streaming_of_prices_try_refreshing_the_page,_if_you_get_this_issue_after_repeated_attempts_try_a_different_browser":"目前我們不能夠串流即時價格。要獲得價格的即時串流請試重新整理頁面，如果經過反复嘗試還是存在此問題，請換一個瀏覽器","password":"密碼","Wednesday":"星期三","Administrative_Executive":"行政專員","Never":"從未","Format:_yyyy-mm-dd_(not_required_for_virtual-money_accounts)":"格式:年-月-日(虛擬資金帳戶不需要)","Now":"現在","This_contract_was_affected_by_a_Corporate_Action_event_":"該合約已受共同決議事件影響。","Entry_Level":"進場價位","Quality_Assurance_Engineer":"品質保證工程師","Please_submit_a_valid_[_1]_":"請提交有效的 [_1]。","Aug":"八月","Walkthrough_Guide":"攻略指南","February":"二月","[_1]_[_2]_has_been_credited_to_your_Virtual_money_account_[_3]":" [_1] [_2]已記入您的虛擬資金帳戶 [_3]","[_1]_Please_click_the_link_below_to_restart_the_password_recovery_process__If_you_require_further_assistance,_please_contact_our_Customer_Support_":"[_1] 請點選以下連結重啟密碼恢復過程。如需要幫助，請聯繫我們的客服部。","Enter_the_barrier_in_terms_of_the_difference_from_the_spot_price__If_you_enter_+0_005,_then_you_will_be_purchasing_a_contract_with_a_barrier_0_005_higher_than_the_entry_spot__The_entry_spot_will_be_the_next_tick_after_your_order_has_been_received":"請按與現貨價格差額的形式輸入障礙水平。如果您輸入+0.005 ，那麼您將買入障礙水平比入市現價高0.005 的合約。入市現價為收到您訂單之後的下一個價格","Social_Media_Executive":"社交媒體專員","Try_adding_more_letters_or_numbers_":"請試新增字母或數字。","Amount":"金額","Token":"權杖","Tick":"跳動點","Your_account_is_fully_authenticated_and_your_withdrawal_limits_have_been_lifted_":"您的帳戶已經得到完全驗證，且您的取款限額已經取消。","Please_check_your_email_to_retrieve_the_token_needed_to_reset_your_password_":"請檢查您的電郵領取重設密碼所需的權杖編號。","December":"十二月","You_should_enter_between_[_1]_characters_":"您最多只能輸入 [_1] 個字元。","Failed_to_reset_password__[_1],_please_retry_":"無法重設密碼。[_1]，請重試。","Adjusted_High_Barrier":"經調整高障礙","Your_trading_statistics_since_[_1]_":"您自 [_1] 至今的交易統計。","Date":"日期","Save_as_JPEG":"以JPEG格式儲存","This_field_is_required_":"此為必填欄位。","Contract_is_not_started_yet":"合約尚未開始","An_error_occured_":"發生錯誤。","-_A_scanned_copy_of_a_utility_bill_or_bank_statement_(no_more_than_3_months_old)_":"水電煤帳單或銀行月結單掃描件（日期不得超過3個月）。","days":"天","Your_current_balance_is":"您目前餘額有","Invalid_date_of_birth_":"出生日期無效。","Quality_Assurance":"品質保證","Self-Employed":"自雇者","Oct":"十月","Lock_Cashier":"鎖定收銀台","Limit":"限額","Verification_Token":"驗證權杖","Successful":"成功","Purchase":"買入","Loss":"虧損","Print_chart":"列印圖表","Date_and_Time":"日期和時間","In/Out":"「範圍之內/之外」","Less_than_$100,000":"少於$100,000","Deposit_[_1]_[_2]_virtual_money_into_your_account_[_3]":"將 [_1] [_2] 虛擬資金存入您的帳戶[_3]","Internal_Audit":"內部審計","Once_you_click_the_'Submit'_button,_the_funds_will_be_withdrawn_from_your_account_and_transferred_to_your_Client's_account_":"一旦您點擊「送出」按鈕，資金將從您的帳戶取出並轉至您客戶的帳戶。","Compliance":"法律事務","Quantitative_Analysis":"量化分析","Explanation":"說明","You_are_not_authorized_for_withdrawal_via_payment_agent_":"您未經授權通過付款代理取款。","Other":"其它","Please_select_a_valid_date":"請選擇有效日期","Financial_Assessment":"金融評估","Maximum_daily_turnover":"最大日成交量","Balance":"餘額","0-1_year":"0-1 年","Revoke_access":"撤銷存取權限","second":"秒","Marketing_Executives":"市場行銷專員","Reference_ID":"身份參考號","No_Live_price_update":"無即時價格更新","Information_Technology":"資訊技術","Tu":"星期二","September":"九月","Your_password_has_been_successfully_reset__Please_log_into_your_account_using_your_new_password_":"您的密碼已成功重設。請用新密碼登入您的帳戶。","Only_2_decimal_points_are_allowed_":"只允許小數點后兩位。","Amount_per_point":"每點之金額","Sale_Price":"賣出價格","This_feature_is_not_relevant_to_virtual-money_accounts_":"此功能不適用於虛擬資金帳戶。","Sep":"九月","m":"月","Note":"備註","View_your_statement":"檢視您的帳單","When_you_click_'Ok'_you_will_be_excluded_from_trading_on_the_site_until_the_selected_date_":"當您點選「Ok」後，您將被禁止在此網站交易，直到選定期限結束為止。","Copywriter":"文案","Zoom":"縮放","Please_enter_a_number_between_0_and_[_1]":"請輸入0和[_1]之間的數字","Reset_Password":"重設密碼","March":"三月","Our_site_does_not_charge_any_transfer_fees_":"我們網站不收取任何轉帳費用。","We":"星期三","seconds":"秒","Date_of_Birth":"出生日期","Maximum_account_cash_balance":"最大帳戶現金餘額","Short":"短倉","Monday":"星期一","Next":"下一頁","Stop_Loss_Level":"止損價位","Prices":"價格","Primary":"主要","Binary_options_or_other_financial_derivatives_trading_experience":"二元期權或其他金融衍生品交易經驗","There_was_a_problem_validating_your_personal_details__Please_fix_the_fields_[_1]here":"您的個人資料驗證出了問題。請在此更正 [_1]欄位","Verification_code_format_incorrect_":"驗證碼格式不正確。","Withdrawal_Limits":"取款限額","Dec":"十二月","Closed":"已收盤","Permissions":"權限","When_you_click_\"Ok\"_you_will_be_excluded_from_trading_on_the_site_until_the_selected_date_":"當您點選「Ok」後，您將被禁止在此網站交易，直到選定期限結束為止。","Represents_the_maximum_amount_of_cash_that_you_may_hold_in_your_account___If_the_maximum_is_reached,_you_will_be_asked_to_withdraw_funds_":"表示您的帳戶中可持有的最高現金額。如果達到該最高額，將會要求您提取資金。","Long":"長倉","Password_should_have_lower_and_uppercase_letters_with_numbers_":"密碼須包含大小寫字母與數字。","Profit":"利潤","Item":"項目","Original_Barrier":"原障礙","Keep_track_of_your_authorised_applications_":"跟蹤您的授權應用程式。","Authorise_your_account_":"入您的帳戶。","Old_password_is_wrong_":"舊密碼不正確。","points":"點","Your_withdrawal_limit_is_[_1]_[_2]_(or_equivalent_in_other_currency)_":"您的取款限額為 [_1] [_2]（或其他貨幣的等值）。","Your_cashier_is_locked_as_per_your_request_-_to_unlock_it,_please_enter_the_password_":"根據您的請求，您的收銀台已被鎖定- 如需解除鎖定，請輸入密碼。","Your_token_has_expired__Please_click_<a_class=\"pjaxload\"_href=\"[_1]\">here</a>_to_restart_the_verification_process_":"您的權杖已過期。請點選<a class=\"pjaxload\" href=\"[_1]\">此處</a>重啟驗證程序。","High_barrier":"高障礙","Password_is_strong":"密碼安全度高","Your_password_cannot_be_the_same_as_your_email":"您的密碼不可與電子郵件相同","Please_fill_in_the_Login_ID_and_Amount_you_wish_to_transfer_to_your_Client_in_the_form_below:":"請在下表中填寫登入ID 以及您希望轉給客戶的金額：","hyphen":"連字號","[_1]_has_updated_its_[_2]__By_clicking_OK,_you_confirm_that_you_have_read_and_accepted_the_updated_[_2]_":"[_1]已經更新了其[_2]條款和條件。通過點選OK按鈕，您確定已經閱讀和接受此更新[_2]條款和條件。","Predict_the_direction<br_/>and_purchase":"預測價格走向<br />並購入","[ctx,minimum_duration,_for_example_minimum_15_seconds]min":"分鐘","View":"檢視","(Bejing/CST_-8_hours)":"（北京/CST -8 小時）","Anti-Fraud_Officer":"反欺詐專員","Your_Client_will_receive_an_email_notification_informing_him/her_that_the_transfer_has_been_processed_":"您的客戶將收到電子郵件通知，告知其轉帳交易已處理。","Barrier_Change":"障礙變更","Last_Digit_Prediction":"最後數字的預測","Please_choose_which_currency_you_would_like_to_transact_in_":"請選擇您想要交易的外匯。","Please_wait_<br_/>Your_request_is_being_processed_":"請稍候。 <br />您的要求正在處理中。","Save_as_PDF":"以PDF格式儲存","Your_cashier_is_locked_as_per_your_request_-_to_unlock_it,_please_click_[_1]here":"根據您的要求，您的收銀台已被鎖定- 如需解除鎖定，請點選此處","Day":"天","Chart":"圖表","Human_Resources":"人力資源","Exit_Spot":"退出現價","Presents_the_maximum_aggregate_payouts_on_outstanding_contracts_in_your_portfolio__If_the_maximum_is_attained,_you_may_not_purchase_additional_contracts_without_first_closing_out_existing_positions_":"表示您證券組合中未平倉合約的最大總賠付額。如果達到該最大值，那麼您在購買更多合約之前需要先對現有頭寸進行平倉。","This_contract_has_LOST":"此合約輸了","Internal_Auditor":"內部審計員","Please_enter_a_number_greater_or_equal_to_[_1]_":"請輸入大於或相等於[_1]之數字。","Entry_Spot":"入市現價","Represents_the_maximum_volume_of_contracts_that_you_may_purchase_in_any_given_trading_day_":"表示任一指定交易日您可以買入的最大合約數量。","Other_financial_instruments_trading_frequency":"其他金融工具交易頻率","Feb":"二月","Closes":"收盤","hours":"小時","Sorry,_account_opening_is_unavailable_":"對不起，不可開立帳號。","Save_as_SVG":"以SVG格式儲存","Invalid_email_address":"無效的電子郵件地址","Graphic_Designers":"平面設計師","day":"天","Select_your_market":"選擇您的市場","Sorry,_an_error_occurred_while_processing_your_request_":"對不起，在處理您的請求時發生錯誤。","Adjust_trade_parameters":"調整交易參數","Level_of_Education":"教育水平","Month":"月份","Stop-loss":"止損","Ok":"確定","Password_Reset":"重設密碼","Please_enter_a_valid_amount_":"請輸入有效金額。","You_have_already_withdrawn_the_equivalent_of_[_1]_[_2]_":"您已提取 [_1] [_2] 的等值。","Buy":"買入","Salaried_Employee":"支薪員工","40_transactions_or_more_in_the_past_12_months":"過去12個月內40次交易或以上","Your_session_duration_limit_will_end_in_[_1]_seconds_":"交易期持續時間限制將於[_1]秒內結束。","Browser":"瀏覽","Proofreader":"校對員","Please_try_again_":"請重試。","Th":"星期四","Last_digit_stats_for_the_latest_[_1]_ticks_on_[_2]":"顯示 [_2] 最新 [_1] 跳點之最後統計數字","Current_Level":"目前價位","Compliance_Executive":"法務專員","Estimated_Net_Worth":"估計淨值","Select_your_trade_type":"選取交易類型","Opens":"開盤","Never_Used":"從未使用過","Your_[_1]_day_withdrawal_limit_is_currently_[_2]_[_3]_(or_equivalent_in_other_currency)_":"您的 [_1] 天取款限額目前為 [_2] [_3]（或其他貨幣的等值）。","Your_account_has_no_trading_activity_":"您的帳號沒有交易活動。","Mar":"三月","Mo":"星期一","Rise/Fall":"「上漲/下跌」合約","Price":"價格","You_have_not_granted_access_to_any_applications_":"您未獲權限存取任何應用程式。","Your_withdrawal_limit_is_[_1]_[_2]_":"您的取款限額是[_1] [_2]。","Password_does_not_match_":"密碼不相符。","Points":"點","and":"以及","Quantitative_Developer":"量化開發員","May":"五月","Current":"目前","month":"月份","Details":"詳細資料","Spot_Time":"現貨時間","Please_select":"請選擇","Try_adding_more_numbers_":"試新增更多數字。","Week_of":"週","Exit_Spot_Time":"退出現價時間","Over_$1,000,000":"大於$1,000,000","Higher/Lower":"「高於/低於」","Number_of_ticks":"跳動點數目","You_are_currently_logged_in_to_your_virtual_money_account_([_2])_":"您現已登入您的虛擬資金帳戶([_2])。","Sa":"星期六","Login_History":"登入歷史","Ms":"女士","July":"七月","Your_request_to_transfer_[_1]_[_2]_from_[_3]_to_[_4]_has_been_successfully_processed_":"您從[_3] 轉帳[_1][_2] 到[_4] 的要求已成功處理。","Session_duration_limit_cannot_be_more_than_6_weeks_":"交易期持續時間限制不能大於6週。","Your_transaction_reference_is":"您的交易參考號是","For_added_security,_please_check_your_email_to_retrieve_the_verification_token_":"為提高安全保障，請檢視郵件並提取驗證權杖。","Over/Under":"大於/小於","The_two_passwords_that_you_entered_do_not_match_":"兩次輸入的密碼不相符。","Therefore_your_current_immediate_maximum_withdrawal_(subject_to_your_account_having_sufficient_funds)_is_[_1]_[_2]_":"因此您目前的即時最高取款額（要求您的帳戶有充足資金）為[_1] [_2]。","Friday":"星期五","Terms_&_Conditions":"條款和條件","Save_as_CSV":"以CSV格式儲存","Previous":"之前","Trading_and_Withdrawal_Limits":"交易和取款限額","Please_select_a_payment_agent":"請選擇付款代理","Contract_Confirmation":"合約確認","Your_transaction_reference_number_is_[_1]":"您的交易號是 [_1]","You_must_accept_the_terms_and_conditions_to_open_an_account_":"您必須接受條款和條件才能開戶。","To_authenticate_your_account,_kindly_email_the_following_to_[_1]":"為驗證您的帳號，請將以下通過電子郵件傳到[_1]","April":"四月","Profit/Loss":"利潤/虧損","Invalid_amount,_maximum_is":"無效金額，最大是","Low_barrier":"低障礙","Unlock_Cashier":"解鎖收銀台","Random":"隨機","End_Time":"結束時間","Sorry,_this_feature_is_available_to_virtual_accounts_only_":"對不起，此功能僅適用虛擬帳戶。","Senior_Front-End_Developer":"高級前端開發人員","Contract_Information":"合約確認","Please_enter_an_integer_value":"請輸入整數","Income_Source":"收入來源","Please_[_1]_to_view_this_page":"要查看此頁面，請 [_1] t","Status":"狀況","November":"十一月","Deposit":"存款","Other_financial_instruments_trading_experience":"其它金融工具交易經驗","Miss":"遺漏","Password_is_moderate":"密碼安全級適中","Sell":"賣出","If_you_need_assistance_feel_free_to_contact_our_[_1]Customer_Support":"如果您需要幫助，請聯繫我們的 [_1]客服部","years":"年","Apr":"四月","apostrophe":"單引號","Please_input_a_valid_date":"請輸入有效日期","Stop_Profit_Level":"止盈價位","Customer_Support":"客戶支援","Your_account_has_no_Login/Logout_activity_":"您的帳戶沒有登入/登出活動。","Your_provided_email_address_is_already_in_use_by_another_Login_ID__According_to_our_terms_and_conditions,_you_may_only_register_once_through_our_site__If_you_have_forgotten_the_password_of_your_existing_account,_please_<a_href=\"[_1]\">try_our_password_recovery_tool</a>_or_contact_customer_service_":"您所輸入的電郵地址已經被另外的登入ID使用。根據我們的使用條款和條件，您只能在我們的網站註冊一次。如果您忘記了目前帳戶的密碼，請<a href=\"[_1]\">嘗試我們的密碼復原工具</a>或聯繫我們的客服人員。","Step":"步驟","year":"年","There_was_an_error":"出現錯誤","There_was_some_invalid_character_in_an_input_field_":"某字欄的輸入字元無效。","Deposit_of":"存款","New_token_created_":"已建立新權杖。","The_Payment_Agent_facility_is_currently_not_available_in_your_country_":"目前您的國家無可用付款代理設施。","Gaming_Account":"博彩帳戶","You_did_not_change_anything_":"您沒做任何更改。","Therefore_your_current_immediate_maximum_withdrawal_(subject_to_your_account_having_sufficient_funds)_is_[_1]_[_2]_(or_equivalent_in_other_currency)_":"因此您目前的即時最高取款額（要求您的帳戶有充足資金）為 [_1] [_2]（或其他等值貨幣)。","Commodities_trading_experience":"商品交易經驗","Date_(GMT)":"日期（格林尼治標準時間）","Please_check_your_email_for_the_value_of_this_token":"請檢查您的電郵領取此權杖編號","Transfer_to":"轉給","Forex_trading_experience":"外匯交易經驗","Virtual_Account":"虛擬帳戶","Low_Barrier":"低障礙","Maximum_aggregate_payouts_on_open_positions":"未平倉頭寸的最大賠付總額","Original_Low_Barrier":"原低障礙","Previous_Day":"前一天","We_are_not_accepting_accounts_from_residents_of_this_country_at_the_present_time_":"目前不接受來自該國居民的帳戶。","Payout":"賠付","Jul":"七月","0-5_transactions_in_the_past_12_months":"過去12個月內0-5次交易","Jan":"一月","ticks":"跳動點","Open":"開盤","Low_barrier_offset":"低障礙位移","Stop-type":"停止類型","Trading_Limits":"交易限制","Education":"教育","This_contract_won":"此合約獲利","Your_settings_have_been_updated_successfully_":"您的設定已成功更新。","Marketing":"市場行銷","Period":"週期","Last_Digit_Stats":"最後數字的統計資料","Your_changes_have_been_updated_":"您的更改已成功更新。","Applications":"應用程式","Save_as_PNG":"以PNG格式儲存","Potential_Payout":"可能的賠付額","Thursday":"星期四","Construction":"建構","Indices_trading_experience":"指數交易經驗","Potential_Profit":"潛在利潤","comma":"逗號","minute":"分鐘","Profit/Loss_(points)":"利潤/虧損(點)","Finance":"金融","months":"月份","Stake":"投注資金","numbers":"號碼","Tuesday":"星期二","not_available":"不可使用","Tertiary":"三級","Confirm_New_Password":"確認新密碼","There_was_a_problem_accessing_the_server_":"伺服器存取出了問題。","Please_enter_a_number_between_[_1]_":"請輸入[_1]之間的數字。","Tourism":"旅遊","Commodities_trading_frequency":"商品交易頻率","Less_than_$25,000":"少於$25,000","Select_your_underlying_asset":"選擇標的資產","Corporate_Action":"共同決議","Maximum_number_of_open_positions":"最大未平倉頭寸數目","Translator":"翻譯員","Human_Resource_Executive":"人力資源專員","Spot":"現價","Due_to_recent_changes_in_the_regulations,_we_are_required_to_ask_our_clients_to_complete_the_following_Financial_Assessment__Please_note_that_you_will_not_be_able_to_continue_trading_until_this_is_completed_":"由於最近的法規變更，客戶必須填寫以下金融評估。您須填寫完成才能繼續交易。","Password_is_very_strong":"密碼安全度很高","June":"六月","minimum_available_duration":"最短可用期限","Please_complete_the_following_financial_assessment_form_before_continuing_":"繼續操作前請填寫以下財務評估表格。","New_Password":"新密碼","Next_Day":"第二天","Minimum_of_[_1]_characters_required_":"需至少[_1] 個字元。","Investments_&_Dividends":"投資與分紅","The_financial_trading_services_contained_within_this_site_are_only_suitable_for_customers_who_are_able_to_bear_the_loss_of_all_the_money_they_invest_and_who_understand_and_have_experience_of_the_risk_involved_in_the_acquistion_of_financial_contracts__Transactions_in_financial_contracts_carry_a_high_degree_of_risk__If_purchased_contracts_expire_worthless,_you_will_suffer_a_total_loss_of_your_investment,_which_consists_of_the_contract_premium_":"本網站所涵蓋的金融交易服務僅適合這樣的客戶：能夠承受全部投入資金虧損的風險，了解購買金融合約所蘊含的風險並擁有相關的風險經歷。金融合約交易涉及很大的風險。如果所購買的合約到期時一文不值，您的投資將完全損失，其中還包括合約費用。","minutes":"分鐘","Original_High_Barrier":"原高障礙","Purchase_Price":"買入價格","Duration":"期限","Back":"返回","loading___":"載入中……","Industry_of_Employment":"職業領域","Indicative":"指示性","Administrator":"管理員","August":"八月","Sorry,_this_feature_is_not_available_":"對不起，此功能不可用。","This_contract_has_WON":"此合約贏了","Jump_To":"跳至","Waiting_for_entry_tick_":"等待買入價跳動。","Please_confirm_the_trade_on_your_statement_before_proceeding_":"繼續操作前，請在您的聲明上確認此項交易。","There_was_a_problem_accessing_the_server_during_purchase_":"買入時伺服器存取出了問題。","Start_Time":"開始時間","Return":"回報","Secondary":"次要","Over_$500,001":"大於$500,001","Jun":"六月"};
 ;var markets_list = ["forex","indices","stocks","commodities","volidx"]; var markets_json = {"commodities":{"submarkets":[{"instruments":[{"value":"frxXAUUSD","label":"Gold/USD"},{"value":"frxXPDUSD","label":"Palladium/USD"},{"value":"frxXPTUSD","label":"Platinum/USD"},{"value":"frxXAGUSD","label":"Silver/USD"}],"name":"metals","label":"Metals"},{"instruments":[{"value":"frxBROUSD","label":"Oil/USD"}],"name":"energy","label":"Energy"}],"label":"Commodities"},"volidx":{"submarkets":[{"instruments":[{"value":"R_100","label":"Volatility 100 Index"},{"value":"R_25","label":"Volatility 25 Index"},{"value":"R_50","label":"Volatility 50 Index"},{"value":"R_75","label":"Volatility 75 Index"}],"name":"random_index","label":"Continuous Indices"},{"instruments":[{"value":"RDBEAR","label":"Bear Market Index"},{"value":"RDBULL","label":"Bull Market Index"}],"name":"random_daily","label":"Daily Reset Indices"},{"instruments":[],"name":"random_nightly","label":"Nocturnes"}],"label":"Volatility Indices"},"forex":{"submarkets":[{"instruments":[{"value":"frxAUDJPY","label":"AUD/JPY"},{"value":"frxAUDUSD","label":"AUD/USD"},{"value":"frxEURAUD","label":"EUR/AUD"},{"value":"frxEURCAD","label":"EUR/CAD"},{"value":"frxEURCHF","label":"EUR/CHF"},{"value":"frxEURGBP","label":"EUR/GBP"},{"value":"frxEURJPY","label":"EUR/JPY"},{"value":"frxEURUSD","label":"EUR/USD"},{"value":"frxGBPAUD","label":"GBP/AUD"},{"value":"frxGBPJPY","label":"GBP/JPY"},{"value":"frxGBPUSD","label":"GBP/USD"},{"value":"frxUSDCAD","label":"USD/CAD"},{"value":"frxUSDCHF","label":"USD/CHF"},{"value":"frxUSDJPY","label":"USD/JPY"}],"name":"major_pairs","label":"Major Pairs"},{"instruments":[{"value":"frxAUDCAD","label":"AUD/CAD"},{"value":"frxAUDCHF","label":"AUD/CHF"},{"value":"frxAUDNZD","label":"AUD/NZD"},{"value":"frxAUDPLN","label":"AUD/PLN"},{"value":"frxEURNZD","label":"EUR/NZD"},{"value":"frxGBPCAD","label":"GBP/CAD"},{"value":"frxGBPCHF","label":"GBP/CHF"},{"value":"frxGBPNOK","label":"GBP/NOK"},{"value":"frxGBPNZD","label":"GBP/NZD"},{"value":"frxGBPPLN","label":"GBP/PLN"},{"value":"frxNZDJPY","label":"NZD/JPY"},{"value":"frxNZDUSD","label":"NZD/USD"},{"value":"frxUSDMXN","label":"USD/MXN"},{"value":"frxUSDNOK","label":"USD/NOK"},{"value":"frxUSDPLN","label":"USD/PLN"},{"value":"frxUSDSEK","label":"USD/SEK"}],"name":"minor_pairs","label":"Minor Pairs"},{"instruments":[{"value":"WLDAUD","label":"AUD Index"},{"value":"WLDEUR","label":"EUR Index"},{"value":"WLDGBP","label":"GBP Index"},{"value":"WLDUSD","label":"USD Index"}],"name":"smart_fx","label":"Smart FX"}],"label":"Forex"},"stocks":{"submarkets":[{"instruments":[{"value":"AUANZ","label":"ANZ Banking Group"},{"value":"AUBHP","label":"BHP Billiton"},{"value":"AUCBA","label":"Commonwealth Bank"},{"value":"AUMQG","label":"Macquarie Group"},{"value":"AUQAN","label":"Qantas Airways"}],"name":"au_otc_stock","label":"Australia"},{"instruments":[{"value":"DEALV","label":"Allianz SE"},{"value":"DEBAYER","label":"Bayer AG"},{"value":"DEDAI","label":"Daimler AG"},{"value":"DESIE","label":"Siemens AG"},{"value":"DEVOWGEN","label":"Volkswagen AG"}],"name":"ge_otc_stock","label":"Germany"},{"instruments":[{"value":"UKBARC","label":"Barclays"},{"value":"UKBATS","label":"British American Tobacco"},{"value":"UKGSK","label":"GlaxoSmithKline"},{"value":"UKHSBA","label":"HSBC Holdings"},{"value":"UKVOD","label":"Vodafone Group"}],"name":"uk_otc_stock","label":"UK"},{"instruments":[{"value":"USGOOG","label":"Alphabet Inc"},{"value":"USAMZN","label":"Amazon.com Inc"},{"value":"USAAPL","label":"Apple Inc"},{"value":"USCT","label":"Citigroup Inc"},{"value":"USKO","label":"Coca-Cola Co"},{"value":"USXOM","label":"Exxon Mobil Corp"},{"value":"USFB","label":"Facebook Inc"},{"value":"USGE","label":"General Electric Co"},{"value":"USMSFT","label":"Microsoft Corp"},{"value":"USPFE","label":"Pfizer Inc"}],"name":"us_otc_stock","label":"US"}],"label":"OTC Stocks"},"indices":{"submarkets":[{"instruments":[{"value":"AS51","label":"Australian Index"},{"value":"BSESENSEX30","label":"Bombay Index"},{"value":"HSI","label":"Hong Kong Index"},{"value":"JCI","label":"Jakarta Index"},{"value":"N225","label":"Japanese Index"},{"value":"STI","label":"Singapore Index"}],"name":"asia_oceania","label":"Asia/Oceania"},{"instruments":[{"value":"BFX","label":"Belgian Index"},{"value":"AEX","label":"Dutch Index"},{"value":"FCHI","label":"French Index"},{"value":"GDAXI","label":"German Index"},{"value":"ISEQ","label":"Irish Index"},{"value":"OBX","label":"Norwegian Index"},{"value":"TOP40","label":"South African Index"},{"value":"SSMI","label":"Swiss Index"}],"name":"europe_africa","label":"Europe/Africa"},{"instruments":[{"value":"SPC","label":"US Index"},{"value":"DJI","label":"Wall Street Index"}],"name":"americas","label":"Americas"},{"instruments":[],"name":"smart_index","label":"Smart Indices"},{"instruments":[{"value":"DFMGI","label":"Dubai Index"}],"name":"middle_east","label":"Middle East"},{"instruments":[],"name":"otc_index","label":"OTC Indices"}],"label":"Indices"}};;/*
  * Configuration values needed in js codes
- * 
+ *
  * NOTE:
  * Please use the following command to avoid accidentally committing personal changes
  * git update-index --assume-unchanged src/javascript/config.js
  *
  */
 
-var app_id = /staging\.binary\.com/i.test(window.location.hostname) ? '1098' : '1004';
-var socket_url = 'wss://ws.binaryws.com/websockets/v3';
+function getAppId() {
+  return localStorage.getItem('config.app_id') ? localStorage.getItem('config.app_id') :
+               /staging\.binary\.com/i.test(window.location.hostname) ? '1098' : '1004';
+}
+
+function getSocketURL() {
+    var server_url = localStorage.getItem('config.server_url');
+    if(!server_url) server_url = (/staging\.binary\.com/i.test(window.location.hostname) ? 'www2' : 'ws') + '.binaryws.com';
+    return 'wss://' + server_url + '/websockets/v3';
+}
 ;var LoggedInHandler = (function() {
     "use strict";
 
@@ -73122,6 +73130,7 @@ pjax_config_page('/get-started', function() {
 pjax_config_page('/contact', function() {
     return {
         onLoad: function() {
+            $('#faq_url').attr('href', 'https://binary.desk.com/customer/' + page.language() + "/portal/articles");
             display_cs_contacts();
             show_live_chat_icon();
         },
@@ -73462,23 +73471,28 @@ pjax_config_page_require_auth("account/account_transferws", function() {
 ;var Cashier = (function() {
     "use strict";
 
-    var show_error = function(error) {
-      $('.withdraw').parent().addClass('button-disabled')
-                             .removeAttr('href');
-      $('.notice-msg').html(error)
-                      .parent().removeClass('invisible');
-    };
-
     var lock_withdrawal = function(withdrawal_locked) {
       if (withdrawal_locked === 'locked') {
-        show_error(text.localize('Withdrawal is locked, please [_1] for more information.')
-                       .replace('[_1]', '<a href="' + page.url.url_for('/contact') + '">' +
-                                        text.localize('contact us') + '</a>'));
+        $.each($('.withdraw'), function(){
+          $a = $(this).parent();
+          // use replaceWith, to disable previously catched pjax event
+          $a.replaceWith($('<a/>', {class: $a.attr('class').replace('pjaxload') + ' button-disabled', html: $a.html()}));
+        });
+        $('.notice-msg').removeClass('invisible').parent().removeClass('invisible');
+      }
+    };
+
+    var check_withdrawal_locked = function() {
+      if (sessionStorage.getItem('withdrawal_locked') === 'locked') {
+        Cashier.lock_withdrawal('locked');
+      } else if (!sessionStorage.getItem('withdrawal_locked')) {
+        BinarySocket.send({"get_account_status": "1", "passthrough":{"dispatch_to":"Cashier"}});
       }
     };
 
     return {
-        lock_withdrawal: lock_withdrawal
+        lock_withdrawal: lock_withdrawal,
+        check_withdrawal_locked: check_withdrawal_locked
     };
 }());
 
@@ -73487,10 +73501,8 @@ pjax_config_page("/cashier", function(){
         onLoad: function() {
           if (!/\/cashier\.html/.test(window.location.pathname) || !page.client.is_logged_in) {
             return;
-          } else if (sessionStorage.getItem('withdrawal_locked') === 'locked') {
-            Cashier.lock_withdrawal('locked');
-          } else if (!sessionStorage.getItem('withdrawal_locked')) {
-            BinarySocket.send({"get_account_status": "1", "passthrough":{"dispatch_to":"Cashier"}});
+          } else {
+            Cashier.check_withdrawal_locked();
           }
         }
     };
@@ -73501,10 +73513,8 @@ pjax_config_page("/cashier/payment_methods", function(){
         onLoad: function() {
           if (!page.client.is_logged_in || page.client.is_virtual()) {
             return;
-          } else if (sessionStorage.getItem('withdrawal_locked') === 'locked') {
-            Cashier.lock_withdrawal('locked');
-          } else if (!sessionStorage.getItem('withdrawal_locked')) {
-            BinarySocket.send({"get_account_status": "1", "passthrough":{"dispatch_to":"Cashier"}});
+          } else {
+            Cashier.check_withdrawal_locked();
           }
         }
     };
@@ -73533,10 +73543,10 @@ pjax_config_page("/cashier/payment_methods", function(){
     var cashier_type;
     if (/withdraw/.test(window.location.hash)) {
       cashier_type = 'withdraw';
-      document.getElementById('deposit-withdraw-heading').innerHTML = 'Withdraw';
+      document.getElementById('deposit-withdraw-heading').innerHTML = text.localize('Withdraw');
     } else if (/deposit/.test(window.location.hash)) {
       cashier_type = 'deposit';
-      document.getElementById('deposit-withdraw-heading').innerHTML = 'Deposit';
+      document.getElementById('deposit-withdraw-heading').innerHTML = text.localize('Deposit');
     }
     return cashier_type;
   }
@@ -73551,16 +73561,24 @@ pjax_config_page("/cashier/payment_methods", function(){
     $('#ukgc-funds-protection').hide();
     $('#deposit-withdraw-error').hide();
   }
-  function showError(error) {
+  function showError(error, id) {
     hideAll();
-    document.getElementById('deposit-withdraw-error').innerHTML = error || text.localize('Sorry, an error occurred while processing your request.');
+    $('#deposit-withdraw-error .error_messages').hide();
+    if (id) {
+      $('#deposit-withdraw-error #' + id).show();
+    } else {
+      $('#custom-error').html(error || text.localize('Sorry, an error occurred while processing your request.')).show();
+    }
     $('#deposit-withdraw-error').show();
+  }
+  function showMessage(id) {
+    $('#deposit-withdraw-message .messages').hide();
+    $('#deposit-withdraw-message #' + id).show();
+    $('#deposit-withdraw-message').show();
   }
   function lock_withdrawal(withdrawal_locked) {
     if (withdrawal_locked === 'locked') {
-      showError(text.localize('Withdrawal is locked, please [_1] for more information.')
-                    .replace('[_1]', '<a href="' + page.url.url_for('/contact') + '">' +
-                                     text.localize('contact us') + '</a>'));
+      showError('', 'withdrawal-locked-error');
     } else {
       BinarySocket.send({"cashier_password": "1"});
     }
@@ -73571,6 +73589,7 @@ pjax_config_page("/cashier/payment_methods", function(){
     getCashierURL: getCashierURL,
     hideAll: hideAll,
     showError: showError,
+    showMessage: showMessage,
     lock_withdrawal: lock_withdrawal
   };
 })();
@@ -73594,19 +73613,18 @@ pjax_config_page_require_auth("cashier/forwardws", function() {
                   if (type === 'cashier_password' && !error){
                     ForwardWS.init();
                     if (response.cashier_password === 1) {
-                      document.getElementById('deposit-withdraw-message').innerHTML = text.localize('Your cashier is locked as per your request - to unlock it, please click [_1]here')
-                                                                                          .replace('[_1]', '<a href="' + page.url.url_for('user/settings/securityws') + '">') + '.</a>';
+                      ForwardWS.showMessage('cashier-locked-message');
                     } else {
                       var cashier_type = ForwardWS.getCashierType();
                       if (cashier_type === 'withdraw') {
                         BinarySocket.send({'verify_email': TUser.get().email, 'type': 'payment_withdraw'});
-                        document.getElementById('deposit-withdraw-message').innerHTML = text.localize('For added security, please check your email to retrieve the verification token.');
+                        ForwardWS.showMessage('check-email-message');
                         $('#withdraw-form').show();
                       } else if (cashier_type === 'deposit') {
                         if (TUser.get().currency !== "") {
                           ForwardWS.getCashierURL();
                         } else {
-                          document.getElementById('deposit-withdraw-message').innerHTML = text.localize('Please choose which currency you would like to transact in.');
+                          ForwardWS.showMessage('choose-currency-message');
                           $('#currency-form').show();
                         }
                       }
@@ -73615,24 +73633,20 @@ pjax_config_page_require_auth("cashier/forwardws", function() {
                     ForwardWS.showError(error.message);
                   } else if (type === 'cashier' && !error) {
                     ForwardWS.hideAll();
-                    document.getElementById('deposit-withdraw-message').innerHTML = '';
+                    $('#deposit-withdraw-message').hide();
                     $('#deposit-withdraw-iframe-container iframe').attr('src', response.cashier);
                     $('#deposit-withdraw-iframe-container').show();
                   } else if (type === 'cashier' && error) {
                     ForwardWS.hideAll();
-                    document.getElementById('deposit-withdraw-message').innerHTML = '';
+                    $('#deposit-withdraw-message').hide();
                     if (error.code && error.code === 'ASK_TNC_APPROVAL') {
                       window.location.href = page.url.url_for('user/tnc_approvalws');
                     } else if (error.code && error.code === 'ASK_FIX_ADDRESS') {
-                      document.getElementById('deposit-withdraw-message').innerHTML = text.localize('There was a problem validating your personal details. Please fix the fields [_1]here')
-                                                                                          .replace('[_1]', '<a href="' + page.url.url_for('user/settings/detailsws') + '">') + '.</a> ' +
-                                                                                          text.localize('If you need assistance feel free to contact our [_1]Customer Support')
-                                                                                          .replace('[_1]', '<a href="' + page.url.url_for('contact') + '">') + '.</a>';
+                      ForwardWS.showMessage('personal-details-message');
                     } else if (error.code && error.code === 'ASK_UK_FUNDS_PROTECTION') {
                       $('#ukgc-funds-protection').show();
                     } else if (error.code && error.code === 'ASK_AUTHENTICATE') {
-                      document.getElementById('deposit-withdraw-message').innerHTML = text.localize('Your account is not fully authenticated. Please visit the <a href="[_1]">authentication</a> page for more information.')
-                                                                                          .replace('[_1]', page.url.url_for('user/authenticatews'));
+                      ForwardWS.showMessage('not-authenticated-message');
                     } else {
                         ForwardWS.showError(error.message);
                     }
@@ -73828,6 +73842,7 @@ pjax_config_page("payment_agent_listws", function() {
         viewIDs,
         fieldIDs,
         errorClass,
+        hiddenClass,
         $views;
 
     var formData,
@@ -73841,6 +73856,7 @@ pjax_config_page("payment_agent_listws", function() {
         containerID = '#paymentagent_withdrawal';
         $views      = $(containerID + ' .viewItem');
         errorClass  = 'errorfield';
+        hiddenClass = 'hidden';
         viewIDs = {
             error   : '#viewError',
             success : '#viewSuccess',
@@ -73857,7 +73873,7 @@ pjax_config_page("payment_agent_listws", function() {
         minAmount = 10;
         maxAmount = 2000;
 
-        $views.addClass('hidden');
+        $views.addClass(hiddenClass);
 
         if(page.client.is_virtual()) { // Virtual Account
             showPageError(text.localize('You are not authorized for withdrawal via payment agent.'));
@@ -74059,12 +74075,14 @@ pjax_config_page("payment_agent_listws", function() {
     // -----------------------------
     // ----- Message Functions -----
     // -----------------------------
-    var showPageError = function(errMsg, noticeMsg) {
-        setActiveView(viewIDs.error);
-        $(viewIDs.error + ' > p').html(errMsg);
-        if (noticeMsg) {
-          $(viewIDs.error).append($('<p/>', {html: noticeMsg}));
+    var showPageError = function(errMsg, id) {
+        $(viewIDs.error + ' > p').addClass(hiddenClass);
+        if(id) {
+            $(viewIDs.error + ' #' + id).removeClass(hiddenClass);
+        } else {
+            $(viewIDs.error + ' #custom-error').html(errMsg).removeClass(hiddenClass);
         }
+        setActiveView(viewIDs.error);
     };
 
     var showError = function(fieldID, errMsg) {
@@ -74078,15 +74096,13 @@ pjax_config_page("payment_agent_listws", function() {
 
     // ----- View Control -----
     var setActiveView = function(viewID) {
-        $views.addClass('hidden');
-        $(viewID).removeClass('hidden');
+        $views.addClass(hiddenClass);
+        $(viewID).removeClass(hiddenClass);
     };
 
     var lock_withdrawal = function(withdrawal_locked) {
       if (withdrawal_locked === 'locked') {
-        showPageError(text.localize('Withdrawal is locked, please [_1] for more information.')
-                          .replace('[_1]', '<a href="' + page.url.url_for('/contact') + '">' +
-                                            text.localize('contact us') + '</a>'));
+        showPageError('', 'withdrawal-locked-error');
       } else if (!page.client.is_virtual()) {
         BinarySocket.send({"paymentagent_list": $.cookie('residence')});
       }
@@ -78380,6 +78396,7 @@ var TradingEvents = (function () {
             }));
             $('#duration_amount').on('change', debounce(function (e) {
                 // using Defaults, to update the value by datepicker if it was emptied by keyboard (delete)
+                page.contents.tooltip.hide_tooltip();
                 Durations.validateMinDurationAmount();
                 if(inputEventTriggered === false || !Defaults.get('duration_amount'))
                     triggerOnDurationChange(e);
@@ -78421,6 +78438,7 @@ var TradingEvents = (function () {
             // need to use jquery as datepicker is used, if we switch to some other
             // datepicker we can move back to javascript
             $('#expiry_date').on('change input', function () {
+                page.contents.tooltip.hide_tooltip();
                 Durations.selectEndDate(this.value);
             });
         }
@@ -78428,6 +78446,7 @@ var TradingEvents = (function () {
         var endTimeElement = document.getElementById('expiry_time');
         if (endTimeElement) {
             $('#expiry_time').on('change input', function () {
+                page.contents.tooltip.hide_tooltip();
                 Durations.setTime(endTimeElement.value);
                 processPriceRequest();
             });
@@ -78614,7 +78633,6 @@ var TradingEvents = (function () {
 
             predictionElement.addEventListener('change', debounce( function (e) {
                 Defaults.set('prediction', e.target.value);
-                page.contents.tooltip.hide_tooltip();
                 processPriceRequest();
                 submitForm(document.getElementById('websocket_form'));
             }));
@@ -79451,6 +79469,7 @@ function processForgetPriceStream() {
 function processPriceRequest() {
     'use strict';
 
+    page.contents.tooltip.hide_tooltip();
     Price.incrFormId();
     processForgetProposals();
     processForgetPriceStream();
@@ -79600,7 +79619,7 @@ var Purchase = (function () {
             container.style.display = 'block';
             message_container.hide();
             confirmation_error.show();
-            confirmation_error.innerHTML = (/ClientUnwelcome/.test(error.code) ? error['message'] + '<a href="' + page.url.url_for('user/authenticatews') + '"> ' + text.localize('Authorise your account.' + '</a>') : error['message']);
+            confirmation_error.innerHTML = (/ClientUnwelcome/.test(error.code) ? error['message'] + '<a class="pjaxload" href="' + page.url.url_for('user/authenticatews') + '"> ' + text.localize('Authorise your account.' + '</a>') : error['message']);
         } else {
             var guideBtn = document.getElementById('guideBtn');
             if(guideBtn) {
@@ -80623,15 +80642,7 @@ WSTickDisplay.updateChart = function(data, contract) {
     onLoad: function() {
       Content.populate();
       function show_error(error) {
-        message.innerHTML = '<div class="errorbox rbox" id="client_message" style="display:block">' +
-                              '<div class="rbox-wrap">' +
-                                '<div class="grd-grid-12 rbox-content" id="client_message_content">' +
-                                  '<p class="center notice-msg">' +
-                                    error +
-                                  '</p>' +
-                                '</div>' +
-                              '</div>' +
-                            '</div>';
+        $('#error_message').removeClass('invisible').text(error);
       }
       function check_virtual() {
         if (page.client.is_virtual()) {
@@ -80648,22 +80659,9 @@ WSTickDisplay.updateChart = function(data, contract) {
               var error = response.error;
               if (response.msg_type === 'get_account_status' && !check_virtual() && !error){
                 if ($.inArray('authenticated', response.get_account_status.status) > -1) {
-                  message.innerHTML = '<p>' +
-                                        text.localize('Your account is fully authenticated. You can view your [_1]trading limits here').replace('[_1]', '<a class="pjaxload" href="' + page.url.url_for('user/settings/limitsws') + '">') + '</a>.' +
-                                      '</p>';
+                  $('#fully-authenticated').removeClass('invisible');
                 } else {
-                  message.innerHTML = '<p>' +
-                                        text.localize('To authenticate your account, kindly email the following to [_1]').replace('[_1]', '<a href="mailto:support@binary.com">support@binary.com</a>') +
-                                      '</p>' +
-                                      '<p>' +
-                                        text.localize('- A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth.') +
-                                      '</p>' +
-                                      '<p>' +
-                                        text.localize('and') +
-                                      '</p>' +
-                                      '<p>' +
-                                        text.localize('- A scanned copy of a utility bill or bank statement (no more than 3 months old).') +
-                                      '</p>';
+                  $('#not-authenticated').removeClass('invisible');
                 }
               } else if (error) {
                 show_error(error.message);
@@ -85771,11 +85769,10 @@ var ProfitTableUI = (function(){
         $('#tnc-loading').addClass(hiddenClass);
         $('#tnc_image').attr('src', page.url.url_for_static('images/pages/cashier/protection-icon.svg'));
         $('#tnc_approval').removeClass(hiddenClass);
-        $('#tnc-message').html(
-            text.localize('[_1] has updated its [_2]. By clicking OK, you confirm that you have read and accepted the updated [_2].')
-                .replace('[_1]', page.client.get_storage_value('landing_company_name'))
-                .replace(/\[_2\]/g, $('<a/>', {class: 'pjaxload', href: page.url.url_for('terms-and-conditions'), text: text.localize('Terms & Conditions')}).prop('outerHTML'))
-        );
+        var tnc_message = $('#tnc-message').html()
+            .replace('[_1]', page.client.get_storage_value('landing_company_name'))
+            .replace(/\[_2\]/g, page.url.url_for('terms-and-conditions'));
+        $('#tnc-message').html(tnc_message).removeClass(hiddenClass);
         $('#btn-accept').text(text.localize('OK'));
     };
 
